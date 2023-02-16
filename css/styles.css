@@ -1,0 +1,175 @@
+
+
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(255, 246, 246, 0.8);
+    color: #363636;
+}
+
+
+
+.navbar{
+    margin: 0px auto;
+    height: 70px;
+    width: 100%;
+    background-color: yellow;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__img > img{
+    width: 100px;
+    height: 30px;
+}
+
+.navbar__optios .navbar__optios--item{
+    margin-right: 20px;
+    color: #363636;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+.navbar__optios .navbar__optios--item:hover{
+    border: 1px solid white;
+    animation: border-animation 1s linear forwards;
+}
+
+
+  
+
+
+.icon__svg{
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+
+
+.icons__svg--path{
+    fill:black;
+}
+
+
+
+
+.nav-mobile__option{
+    margin-top: 10px;
+}
+
+.nav-mobile__option a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.container > .sidebar{
+    background-color: wh;
+    padding: 25px;
+    padding-left: 10px;
+    min-height: 100vh;
+}
+
+.container > .sidebar > h2{
+    text-align: center;
+}
+
+.sidebar__form{
+    margin-top: 60px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group input{
+    padding: 5px;
+    margin-left: 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn_login{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_ingresar{
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+.content{
+    padding: 25px;
+}
+
+
+.container > .content > h2{
+    text-align: center;
+}
+
+.personajes{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.personaje{
+    width: auto;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.personaje{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.personaje .title{
+    text-align: center;
+}
+
+.personaje .image-conatiner{
+    margin-top: 10px;
+    width: 95%;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.personaje .image-conatiner .image{
+    width: 100%;
+    height: 300px;
+}
+
+.footer{
+    padding: 20px;
+    background-color: #ccc;
+}
